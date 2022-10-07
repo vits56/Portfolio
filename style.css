@@ -13,7 +13,7 @@ coloque nas sessões indicadas*/
 body {
   box-sizing: border-box;
   background-color: var(--cor-de-fundo);
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -45,9 +45,9 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sessão Menu*/
 
+
 section.menu {
   display: flex;
-  flex-direction: column;
 }
 
 .menu__header {
@@ -59,11 +59,6 @@ section.menu {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
 }
 
-.title__profile {
-  width: 98px;
-  height: 98px;
-  border-radius: 100%;
-}
 
 .menu__title {
   font-family: 'Raleway', sans-serif;
@@ -72,9 +67,52 @@ section.menu {
   color: var(--cor-de-texto);
 }
 
+.menu__list {
+  display: none;
+}
+
 /*Sessão Title*/
 
-section.title {}
+section.title {
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.title__profile {
+  width: 98px;
+  height: 98px;
+  border-radius: 100%;
+}
+
+.title__bio {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--cor-de-texto);
+  line-height: 22px;
+}
+
+.title__subsection {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--cor-de-texto);
+  line-height: 16px;
+}
+
+.title__network {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: auto;
+}
+
+
 
 /*Sessão About*/
 
@@ -104,7 +142,7 @@ section.footer {}
 utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
-@media (min-width: 768px) {
+
 
   /* Menu */
 
@@ -118,10 +156,10 @@ utilize como referência os breakpoints @media abaixo*/
 
   /*Expeirência profissional*/
 
-}
 
-/*Mobile*/
-@media (min-width: 425px) {
+
+/*Desktop*/
+
 
   /*Menu*/
 
@@ -141,4 +179,3 @@ utilize como referência os breakpoints @media abaixo*/
 
   /*Footer*/
 
-}
