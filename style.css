@@ -362,9 +362,7 @@ section.academic {
   background: #FFFFFF;
 }
 
-.academic__courses__list {
-  
-}
+.academic__courses__list {}
 
 .academic__courses__item__img {
   width: 24px;
@@ -382,7 +380,7 @@ section.academic {
   text-align: center;
 
   color: #2A7AE4;
-  
+
 }
 
 .academic__courses__item__title {
@@ -429,7 +427,39 @@ section.academic {
 
 /* experiência*/
 
-section.experience {}
+section.experience {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.experience__section__title {
+  text-align: center;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: var(--cor-de-texto);
+}
+
+.experiencie__box {}
+
+.experience__img {}
+
+.experience__info {}
+
+.experience__title {}
+
+.experience__text {}
+
+.experience__description {}
+
+.experience__repo {}
+
+.experiencia__botao--repo {}
+
+.experience__demo {}
 
 /*Contato*/
 
