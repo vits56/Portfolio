@@ -167,8 +167,14 @@ section.skills {
 }
 
 .skills__box {
-  
-  /* Preto/branco */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #F5F5F5;
+  margin: 8px;
 
   background: #FFFFFF;
 
