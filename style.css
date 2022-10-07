@@ -318,7 +318,114 @@ section.hobbies {
 
 /* Experiência Acadêmica*/
 
-section.academic {}
+section.academic {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.academic__title {
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Preto/100% */
+
+  color: #464646;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.academic__courses {}
+
+.academic__courses__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 296px;
+  height: 118px;
+  background-color: #F5F5F5;
+  margin: 8px;
+
+  background: #FFFFFF;
+}
+
+.academic__courses__list {
+  
+}
+
+.academic__courses__item__img {
+  width: 24px;
+  height: 37px;
+
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #2A7AE4;
+  
+}
+
+.academic__courses__item__title {
+  width: 160px;
+  height: 19px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+
+  /* Preto/100% */
+
+  color: #464646;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.academic__courses__item__subtitle {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* Preto/100% */
+
+  color: #464646;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+}
 
 /* experiência*/
 
