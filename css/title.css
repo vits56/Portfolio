@@ -38,3 +38,43 @@ section.title {
   padding-left: 16px;
   padding-right: auto;
 }
+
+@media screen and (min-width: 768px) {
+  section.title {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title__div {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .title__profile {
+    width: 146px;
+    height: 146px;
+    border-radius: 100%;
+  }
+
+  .title__subsection {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .title__network {
+    display: flex;
+    justify-content: start;
+    gap: 12px;
+    align-items: center;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+
+}
+
+@media screen and (min-width: 1024px) {}
