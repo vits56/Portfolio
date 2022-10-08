@@ -77,4 +77,22 @@ section.title {
 
 }
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+  .title__profile {
+    width: 368px;
+    height: 368px;
+  }
+
+  .title__bio {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px
+  }
+
+  .title__subsection {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+}
