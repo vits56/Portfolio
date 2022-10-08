@@ -140,4 +140,24 @@ section.experience {
   }
 }
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+  .experience__title {
+    width: 1000px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+  }
+}
