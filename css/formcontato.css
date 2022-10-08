@@ -99,7 +99,7 @@ section.formcontato {
   /* Preto/branco */
 
   background: #FFFFFF;
-  
+
 
   /* Inside auto layout */
 
@@ -155,3 +155,17 @@ section.formcontato {
   order: 2;
   flex-grow: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .formcontato__input {
+    width: 704px;
+    height: 56px;
+  }
+
+  .formcontato__textarea {
+    width: 704px;
+    height: 133px;
+  }
+}
+
+@media screen and (min-width: 1024px) {}
