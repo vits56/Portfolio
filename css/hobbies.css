@@ -80,3 +80,15 @@ section.hobbies {
   align-self: stretch;
   flex-grow: 0;
 }
+
+@media screen and (min-width: 1024px) {
+  .hobbies__line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 16px;
+  }
+
+}
