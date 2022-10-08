@@ -22,3 +22,14 @@ section.about {
   color: var(--cor-de-texto);
   line-height: 16px;
 }
+
+@media screen and (min-width: 1024px) {
+  .about__paragraph {
+    width: 751px;
+    height: 133px;
+
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+}
