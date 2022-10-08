@@ -74,4 +74,28 @@ section.menu {
   }
 }
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+  .menu__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+
+  }
+
+  .menu__list__item__contato {
+    display: none;
+  }
+}
