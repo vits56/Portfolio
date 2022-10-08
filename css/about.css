@@ -1,0 +1,23 @@
+/*Sessão About*/
+
+section.about {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.about__title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--cor-de-texto);
+  line-height: 26px;
+}
+
+.about__paragraph {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--cor-de-texto);
+  line-height: 16px;
+}
