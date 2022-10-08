@@ -4,6 +4,7 @@ section.formcontato {
   display: flex;
   flex-direction: column;
   padding: 16px;
+  background: #EAF2FD;
 
 }
 
@@ -98,7 +99,7 @@ section.formcontato {
   /* Preto/branco */
 
   background: #FFFFFF;
-  border-radius: 4px;
+  
 
   /* Inside auto layout */
 
@@ -138,6 +139,7 @@ section.formcontato {
   align-items: center;
   padding: 12px 16px;
   gap: 10px;
+  border-radius: 8px;
 
   width: 151px;
   height: 40px;
