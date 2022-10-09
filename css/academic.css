@@ -1,36 +1,63 @@
 /* Experiência Acadêmica*/
 
 section.academic {
-  
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #EAF2FD;
 }
 
-.academic__title {
+.academic__title {}
 
-}
-
-.academic__courses {
-  
-}
+.academic__courses {}
 
 .academic__courses__box {
   
 }
 
 .academic__courses__list {
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+}
 
+.academic__courses__item__img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+
+  border-radius: 4px;
+
+  width: 296px;
+  height: 118px;
+
+  /* Preto/branco */
+
+  background: #FFFFFF;
 }
 
 .academic__courses__item__img img {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
+  padding-bottom: 30px;
 }
 
 .academic__courses__item__title {
-  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .academic__courses__item__subtitle {
-  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
