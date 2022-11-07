@@ -15,3 +15,10 @@ inputName.addEventListener("input", () => {
 	}
 	console.log(inputName.value.length);
 });
+
+inputEmail.addEventListener("input", () => {
+	inputEmail.setAttribute("autocomplete", "on");
+	if (inputEmail.value === "") {
+		inputEmail.setAttribute("autocomplete", "off");
+	}
+});
