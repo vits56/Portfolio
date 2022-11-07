@@ -22,3 +22,11 @@ inputEmail.addEventListener("input", () => {
 		inputEmail.setAttribute("autocomplete", "off");
 	}
 });
+
+inputAssunto.addEventListener("input", () => {
+	if (inputAssunto.value.length > 50) {
+		inputAssunto.setCustomValidity("Precisa ter menos que 50 caracteres");
+	} else {
+		inputAssunto.setCustomValidity("");
+	}
+});
