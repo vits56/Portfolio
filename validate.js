@@ -2,3 +2,16 @@ let inputName = document.querySelector("#nome");
 let inputEmail = document.querySelector("#email");
 let inputAssunto = document.querySelector("#assunto");
 let inputMessage = document.querySelector("#mensagem");
+
+inputName.addEventListener("input", () => {
+	inputName.setAttribute("autocomplete", "on");
+	if (inputName.value === "") {
+		inputName.setAttribute("autocomplete", "off");
+	}
+	if (inputName.value.length > 50) {
+		inputName.setCustomValidity("Precisa ter menos que 50 caracteres");
+	} else {
+		inputName.setCustomValidity("");
+	}
+	console.log(inputName.value.length);
+});
