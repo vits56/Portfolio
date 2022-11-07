@@ -30,3 +30,11 @@ inputAssunto.addEventListener("input", () => {
 		inputAssunto.setCustomValidity("");
 	}
 });
+
+inputMessage.addEventListener("input", () => {
+	if (inputMessage.value.length > 300) {
+		inputMessage.setCustomValidity("Precisa ter menos que 300 caracteres");
+	} else {
+		inputMessage.setCustomValidity("");
+	}
+});
