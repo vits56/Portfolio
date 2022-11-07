@@ -1,0 +1,32 @@
+.formcontato__contacto {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .formcontato__contacto {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 2.093rem;
+        padding-bottom: 1.093rem;
+        background-color: #EAF2FD;
+        border-top: 4rem #EAF2FD solid;
+        border-bottom: 2rem #EAF2FD solid;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .formcontato__contacto {
+        width: calc(100% - 19rem);
+        display: flex;
+        flex-direction: row;
+        padding-top: 3.093rem;
+        padding-bottom: 4.093rem;
+        border-top: 5rem #EAF2FD solid;
+    }
+}

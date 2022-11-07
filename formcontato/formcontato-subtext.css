@@ -1,0 +1,11 @@
+.formcontato__subtext {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+@media screen and (min-width: 1440px) {
+    .formcontato__subtext {
+        font-size: 1rem;
+    }
+}

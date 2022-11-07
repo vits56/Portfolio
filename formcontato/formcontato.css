@@ -1,0 +1,29 @@
+@import url(formcontato-button.css);
+@import url(formcontato-contacto.css);
+@import url(formcontato-form.css);
+@import url(formcontato-img.css);
+@import url(formcontato-input.css);
+@import url(formcontato-subtext.css);
+@import url(formcontato-text.css);
+@import url(formcontato-textarea.css);
+@import url(formcontato-title.css);
+
+section.formcontato {
+    background-color: #EAF2FD;
+    padding: 0 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    section.formcontato {
+        padding: 0 4rem;
+        width: calc(100% - 8rem);
+
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    section.formcontato {
+        display: flex;
+        justify-content: center;
+    }
+}

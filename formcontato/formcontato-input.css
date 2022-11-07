@@ -1,0 +1,68 @@
+.formcontato__input {
+
+    width: 100%;
+    height: 2.5rem;
+    margin-bottom: 2rem;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px #C8C8C8 solid;
+    outline: none;
+    font-size: 1rem;
+    padding-left: .75rem;
+    padding-top: 1rem;
+}
+
+.formcontato__input:focus {
+    border-bottom: 2px #2A7AE4 solid;
+}
+
+
+#nome:focus~.formcontato__label--nome,
+#nome:not(:focus):valid~.formcontato__label--nome {
+    bottom: 5.25rem;
+    left: .75rem;
+    font-size: .75rem;
+    color: #2A7AE4;
+}
+
+#nome:not(:focus):valid~.formcontato__label--nome {
+    color: #A2A2A2;
+}
+
+#email:focus~.formcontato__label--email,
+#email:not(:focus):valid~.formcontato__label--email {
+    bottom: 5.25rem;
+    left: .75rem;
+    font-size: .75rem;
+    opacity: 1;
+    color: #2A7AE4;
+}
+
+#email:not(:focus):valid~.formcontato__label--email {
+    color: #A2A2A2;
+}
+
+#assunto:focus~.formcontato__label--assunto,
+#assunto:not(:focus):valid~.formcontato__label--assunto {
+    bottom: 5.25rem;
+    left: .75rem;
+    font-size: .75rem;
+    opacity: 1;
+    color: #2A7AE4;
+}
+
+#assunto:not(:focus):valid~.formcontato__label--assunto {
+    color: #A2A2A2;
+}
+
+.floating-label {
+    position: relative;
+    bottom: 4.2rem;
+    left: .75rem;
+    pointer-events: none;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: 0.2s ease all;
+    color: #A2A2A2;
+}
