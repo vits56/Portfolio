@@ -110,7 +110,7 @@ section.experience {
 
   /* Azul/100% */
 
-  border: 1px solid #2A7AE4;
+  border: 1px solid var(--cor-azul-medio);
 }
 
 .experiencia__botao--demo {

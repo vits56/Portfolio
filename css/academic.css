@@ -7,7 +7,8 @@ section.academic {
   background: var(--cor-azul-claro);
 }
 
-.academic__title {}
+.academic__title {
+}
 
 .academic__courses {
   display: flex;
