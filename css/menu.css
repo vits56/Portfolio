@@ -66,7 +66,7 @@ section.menu {
 
     /* Preto/100% */
 
-    color: #464646;
+    color: var(--cor-de-texto);
   }
 
   .menu__list {

@@ -6,7 +6,7 @@
     border: none;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    border-bottom: 1px #C8C8C8 solid;
+    border-bottom: 1px var(--cor-branco-gelo) solid;
     outline: none;
     font-size: 1rem;
     padding-left: .75rem;
@@ -14,7 +14,7 @@
 }
 
 .formcontato__input:focus {
-    border-bottom: 2px #2A7AE4 solid;
+    border-bottom: 2px var(--cor-azul-medio) solid;
 }
 
 
@@ -23,11 +23,11 @@
     bottom: 5.25rem;
     left: .75rem;
     font-size: .75rem;
-    color: #2A7AE4;
+    color: var(--cor-azul-medio);
 }
 
 #nome:not(:focus):valid~.formcontato__label--nome {
-    color: #A2A2A2;
+    color: var(--cor-branco-gelo-medio);
 }
 
 #email:focus~.formcontato__label--email,
@@ -36,11 +36,11 @@
     left: .75rem;
     font-size: .75rem;
     opacity: 1;
-    color: #2A7AE4;
+    color: var(--cor-azul-medio);
 }
 
 #email:not(:focus):valid~.formcontato__label--email {
-    color: #A2A2A2;
+    color: var(--cor-branco-gelo-medio);
 }
 
 #assunto:focus~.formcontato__label--assunto,
@@ -49,11 +49,11 @@
     left: .75rem;
     font-size: .75rem;
     opacity: 1;
-    color: #2A7AE4;
+    color: var(--cor-azul-medio);
 }
 
 #assunto:not(:focus):valid~.formcontato__label--assunto {
-    color: #A2A2A2;
+    color: var(--cor-branco-gelo-medio);
 }
 
 .floating-label {
@@ -64,5 +64,5 @@
     font-size: 1rem;
     font-weight: 400;
     transition: 0.2s ease all;
-    color: #A2A2A2;
+    color: var(--cor-branco-gelo-medio)
 }

@@ -8,6 +8,12 @@ coloque nas sessões indicadas*/
   --cor-de-fundo: #F5F5F5;
   --cor-de-link: #000;
   --cor-de-texto: #464646;
+  --cor-azul-claro: #EAF2FD;
+  --cor-branco: #FFFFFF;
+  --cor-azul-medio: #2A7AE4;
+  --cor-azul-hover: #5595E9;
+  --cor-branco-gelo: #c8c8c8;
+  --cor-branco-gelo-medio: #A2A2A2;
 }
 
 body {

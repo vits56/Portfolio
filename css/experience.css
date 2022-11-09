@@ -31,7 +31,6 @@ section.experience {
   justify-content: center;
   width: 296px;
   height: 144px;
-  background: red;
   margin: 8px;
   margin-top: 16px;
 
@@ -49,7 +48,7 @@ section.experience {
 
   /* Preto/100% */
 
-  color: #464646;
+  color: var(--cor-cinza-escuro);
 }
 
 .experience__title {
@@ -61,7 +60,7 @@ section.experience {
 
   /* Preto/100% */
 
-  color: #464646;
+  color: var(--cor-cinza-escuro);
 }
 
 .experience__text {
@@ -73,7 +72,7 @@ section.experience {
 
   /* Preto/100% */
 
-  color: #464646;
+  color: var(--cor-cinza-escuro);
 
 
   /* Inside auto layout */
@@ -127,8 +126,8 @@ section.experience {
 
   /* Azul/100% */
 
-  border: 1px solid #2A7AE4;
-  background: #2A7AE4;
+  border: 1px solid var(--cor-azul-medio);
+  background: var(--cor-azul-medio);
 }
 
 .experience__demo {}
@@ -155,7 +154,7 @@ section.experience {
 
     /* Preto/100% */
 
-    color: #464646;
+    color: var(--cor-de-texto);
 
 
     /* Inside auto layout */

@@ -33,10 +33,10 @@ section.skills {
   justify-content: center;
   width: 148px;
   height: 118px;
-  background-color: #F5F5F5;
+  background-color: var(--cor-de-fundo);
   margin: 8px;
 
-  background: #FFFFFF;
+  background: var(--cor-branco);
 
 
 }
@@ -58,7 +58,7 @@ section.skills {
   align-items: center;
   text-align: center;
 
-  color: #2A7AE4;
+  color: var(--cor-azul-medio);
 
 
   /* Inside auto layout */
@@ -84,7 +84,7 @@ section.skills {
 
   /* Preto/100% */
 
-  color: #464646;
+  color: var(--cor-de-texto);
 
 
   /* Inside auto layout */

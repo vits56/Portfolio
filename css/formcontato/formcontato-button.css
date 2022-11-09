@@ -1,12 +1,12 @@
 .formcontato__botao {
-    background-color: #2A7AE4;
-    border: 1px #2A7AE4 solid;
-    color: #FFFFFF;
+    background-color: var(--cor-azul-medio);
+    border: 1px var(--cor-azul-medio) solid;
+    color: var(--cor-branco);
     padding: 0.75rem 1rem;
 }
 
 .formcontato__botao:hover {
     cursor: pointer;
-    background-color: #5595E9;
-    border-color: #5595E9;
+    background-color: var(--cor-azul-hover);
+    border-color: var(--cor-azul-hover);
 }

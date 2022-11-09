@@ -4,7 +4,7 @@ section.about {
   display: flex;
   flex-direction: column;
   padding: 16px;
-  background: #EAF2FD;
+  background: var(--cor-azul-claro);
 }
 
 .about__title {

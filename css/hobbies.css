@@ -30,10 +30,10 @@ section.hobbies {
   justify-content: center;
   width: 148px;
   height: 118px;
-  background-color: #F5F5F5;
+  background-color: var(--cor-de-fundo);
   margin: 8px;
 
-  background: #FFFFFF;
+  background: var(--cor-branco);
 }
 
 .hobbies__img {
@@ -51,7 +51,7 @@ section.hobbies {
   align-items: center;
   text-align: center;
 
-  color: #2A7AE4;
+  color: var(--cor-azul-medio);
 }
 
 .hobbies__name {
@@ -70,7 +70,7 @@ section.hobbies {
 
   /* Preto/100% */
 
-  color: #464646;
+  color: var(--cor-de-texto);
 
 
   /* Inside auto layout */

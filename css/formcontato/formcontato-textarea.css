@@ -8,17 +8,17 @@
     resize: none;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    border-bottom: 1px #C8C8C8 solid;
+    border-bottom: 1px var(--cor-branco-gelo) solid;
     margin-bottom: 2rem;
 }
 
 .formcontato__textarea:focus {
-    border-bottom: 2px #2A7AE4 solid;
+    border-bottom: 2px var(cor--azul-medio) solid;
 }
 
 .formcontato__textarea::placeholder {
     font-size: 1rem;
     font-family: "Raleway", "sans-serif";
     font-weight: 400;
-    color: #A2A2A2;
+    color: var(--cor-branco-gelo-medio);
 }
