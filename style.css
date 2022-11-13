@@ -16,6 +16,18 @@ coloque nas sessões indicadas*/
   --cor-branco-gelo-medio: #A2A2A2;
 }
 
+.light:root {
+  --cor-de-fundo: #FFFFFF;
+  --cor-de-link: #1f6feb;
+  --cor-de-texto: #0d1117;
+  --cor-azul-claro: #c9d1d9;
+  --cor-branco: #30363d;
+  --cor-azul-medio: #2A7AE4;
+  --cor-azul-hover: #5595E9;
+  --cor-branco-gelo: #c8c8c8;
+  --cor-branco-gelo-medio: #A2A2A2;
+}
+
 body {
   box-sizing: border-box;
   background-color: var(--cor-de-fundo);
