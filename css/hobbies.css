@@ -55,6 +55,7 @@ section.hobbies {
 }
 
 .hobbies__name {
+  margin-top: 20px;
   width: 124px;
   height: 19px;
 
@@ -70,7 +71,7 @@ section.hobbies {
 
   /* Preto/100% */
 
-  color: var(--cor-azul-claro);
+  color: var(--cor-skill-hobbies);
 
 
   /* Inside auto layout */
