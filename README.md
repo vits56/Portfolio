@@ -40,10 +40,10 @@ Projeto realizado durante o Oracle Next Education realizado pela Oracle + Alura.
 - Deve ter uma seção de experiência em programação;
 - Aqui você pode colocar os projetos que você já realizou anteriormente, como, por exemplo: os projetos do challenge iniciante em programação.
 Deve ter um formulário de contato com os campos para:
-   1) Email;
-   2) Nome;
-   3) Assunto;
-   4) Mensagem.
+   - 1 - Email;
+   - 2 - Nome;
+   - 3 - Assunto;
+   - 4 - Mensagem.
 - Deve ter um rodapé com as informações da pessoa que desenvolveu o portfólio;
 
 
@@ -51,8 +51,6 @@ Deve ter um formulário de contato com os campos para:
 ## Extras
 
 - A página deve conter um botão que permita visualizar, em uma nova aba, uma versão em PDF do seu currículo.
-
-- Em construção...
 
 
 # Executando a aplicação
