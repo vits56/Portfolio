@@ -6,6 +6,10 @@ section.menu {
   flex-direction: row;
 }
 
+.menu__img {
+  cursor: pointer;
+}
+
 .menu__header {
   display: flex;
   justify-content: space-between;

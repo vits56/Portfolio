@@ -40,10 +40,21 @@
 
 <body>
   <!-- Sessão de Menu  -->
-  <div class="all">
+  
     <section class="menu">
       <header class="menu__header">
-        <img type="button" onclick="themeToggle()" class="menu__img" src="assets\vector.png">
+
+        <div>
+          <input type="checkbox" class="checkbox" id="chk" />
+          <label class="label" for="chk" onclick="themeToggle()">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+          </label>
+        </div>
+
+        <!-- <img type="button" onclick="themeToggle()" class="menu__img" src="assets\vector.png"> -->
+        <div class="all">
         <h3 class="menu__title">Bruno Bastos Duarte</h3>
         <p class="menu__list__item__contato"><a href="#contato">bastosduartebruno@gmail.com</a></p>
       </header>
@@ -368,6 +379,7 @@
   <!-- Script Linkado do seu documento de JavaScript -->
   <script src="validate.js"></script>
   <script src="theme.js"></script>
+  <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
