@@ -8,7 +8,7 @@
 .label {
   margin-bottom: 30px;
   margin-right: 20px;
-  background-color: #111;
+  background-color: var(--cor-fundo-theme);
   border-radius: 50px;
   cursor: pointer;
   display: flex;
@@ -50,7 +50,7 @@
 
 @media screen and (min-width: 768px) {
   .label {
-    background-color: #111;
+    background-color: var(--cor-fundo-theme);
     border-radius: 50px;
     cursor: pointer;
     display: flex;
@@ -70,7 +70,7 @@
 @media screen and (min-width: 1024px) {
   .label {
     margin-top: 30px;
-    background-color: #111;
+    background-color: var(--cor-fundo-theme);
     border-radius: 50px;
     cursor: pointer;
     display: flex;

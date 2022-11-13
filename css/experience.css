@@ -131,6 +131,8 @@ section.experience {
 
   border: 1px solid var(--cor-azul-medio);
   background: var(--cor-azul-medio);
+  color: var(--cor-branco);
+
 }
 
 .experience__demo {}
