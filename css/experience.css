@@ -5,6 +5,7 @@ section.experience {
   flex-direction: column;
   align-items: center;
   padding: 16px;
+  color: var(--cor-de-texto);
 }
 
 .experience__section__title {
